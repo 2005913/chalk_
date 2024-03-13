@@ -8,10 +8,6 @@
 	"type": "module",
 	"main": "./source/index.js",
 	"exports": "./source/index.js",
-	"dependencies":{
-		"ansi-styles":"^6.1.0",
-		"supports-color":"^9.2.1",
-	},
 	"types": "./source/index.d.ts",
 	"engines": {
 		"node": "^12.17.0 || ^14.13 || >=16.0.0"
@@ -76,5 +72,9 @@
 		"exclude": [
 			"source/vendor"
 		]
+	},
+	"dependencies":{
+		"ansi-styles":"^6.1.0",
+		"supports-color":"^9.2.1",
 	}
 }
