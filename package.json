@@ -8,6 +8,10 @@
 	"type": "module",
 	"main": "./source/index.js",
 	"exports": "./source/index.js",
+	"dependencies":{
+		"ansi-styles":"^6.1.0",
+		"supports-color":"^9.2.1",
+	},
 	"types": "./source/index.d.ts",
 	"engines": {
 		"node": "^12.17.0 || ^14.13 || >=16.0.0"
@@ -53,10 +57,6 @@
 		"tsd": "^0.19.0",
 		"xo": "^0.53.0",
 		"yoctodelay": "^2.0.0"
-	},
-	"dependencies":{
-		"ansi-styles":"^6.1.0",
-		"supports-color":"^9.2.1",
 	},
 	"sideEffects": false,
 	"xo": {
